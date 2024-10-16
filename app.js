@@ -98,7 +98,7 @@ const contractABI = [
     }
 ];
 
-const contractAddress = '0xf8adFC6743D62833A775783b68aB682c0DFD4d56'; // Replace with the actual contract address from Ganache
+const contractAddress = '0x36190d280555a58921592b595966b2515843A96C'; // Replace with the actual contract address from Ganache
 const contract = new web3.eth.Contract(contractABI, contractAddress);
 
 // Function to hash the file using SHA-256
